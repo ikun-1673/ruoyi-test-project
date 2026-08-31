@@ -1,0 +1,4 @@
+selenium>=4.47.0
+pytest>=9.1.0
+pytest-html>=4.0.0
+pymysql>=1.1.0
