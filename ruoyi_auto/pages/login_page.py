@@ -6,12 +6,10 @@ from selenium.webdriver.support import expected_conditions as EC
 from pages.base_page import BasePage
 
 class LoginPage(BasePage):
-    #//input[ @ placeholder = "密码"]
     USERNAME = (By.CSS_SELECTOR, "input[placeholder = '账号']")
     PASSWORD = (By.CSS_SELECTOR, "input[placeholder = '密码']")
     LOGIN_BTN = (By.CSS_SELECTOR, "button[type='button']")
     ERROR_MSG = (By.CLASS_NAME, "el-message__content")
-    #ERROR_MSG = (By.XPATH,"//p[@class='el-message__content']")
 
     CAPTCHA_IMG = (By.CSS_SELECTOR, "img.login-code-img")
 

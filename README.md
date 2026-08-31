@@ -79,7 +79,7 @@ pytest                        # 一条命令跑全部用例并自动生成 HTML 
 
 ## 运行方式（接口测试部分）
 
-1. 导入 `postman/若依接口测试.postman_collection.json`（Postman 左上角 Import）
+1. 导入 `postman/若依接口测试.postman_collection.json`（Postman 左上角 Import）；集合按模块分 6 个文件夹（01-登录认证 → 06-退出登录），33 条请求全部在文件夹内
 2. 前置：若依已启动、验证码开关已关闭（`sys.account.captchaEnabled=false`）
 3. 集合右键 → **Run collection**，默认顺序即可（退出登录用例已排在最后，登录脚本会自动存 token）
 4. 断言统一判响应体 `code`（若依业务失败也是 HTTP 200：500 业务错误 / 601 警告 / 401 认证失败）

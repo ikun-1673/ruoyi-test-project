@@ -25,7 +25,6 @@ class Test_login:
         wait_for_home(driver)
         assert "首页" in driver.page_source, "登录失败，未检测到主页文本"
         print('登陆成功')
-        #// *[contains(text(), '若依后台管理框架')]
 
     def test_wrong_password(self, driver, base_url):
         """TC-LOGIN-004：错误密码，页面应停留登录页"""
