@@ -17,3 +17,19 @@ WHERE role_name = '验证角色3';
 -- 根因佐证：唯一索引缺失（两条查询结果均为空 = 无唯一约束兜底）
 SHOW INDEX FROM sys_user WHERE Non_unique = 0 AND Column_name = 'user_name';
 SHOW INDEX FROM sys_role WHERE Non_unique = 0 AND Column_name = 'role_name';
+-- 附加核验：EXPLAIN 分析执行计划 + 落库核验三件套（对应简历"会用 EXPLAIN、习惯 SQL 核验落库"）
+
+-- 落库核验三件套（以新增用户为例）：
+-- ① 记录存在且字段正确
+SELECT user_id, user_name, nick_name, phonenumber, status, create_time FROM sys_user WHERE user_name = 'admin';
+-- ② 密码为加密存储（$2a$ 开头即 BCrypt 哈希，明文存储即安全缺陷）
+SELECT LEFT(password, 20) FROM sys_user WHERE user_name = 'admin';
+-- ③ 唯一性核验（并发重名场景应 >1，正常应 =1）
+SELECT COUNT(*) FROM sys_user WHERE user_name = 'admin';
+
+-- EXPLAIN 执行计划分析（实测结果 2026-09）：
+EXPLAIN SELECT * FROM sys_user WHERE user_name = 'admin';
+-- 实测：type=ALL, key=NULL, rows=58 → 全表扫描，user_name 无索引
+EXPLAIN SELECT * FROM sys_user WHERE user_id = 1;
+-- 实测：type=const, key=PRIMARY, rows=1 → 主键点查，最优
+-- 结论：user_name 无索引不仅导致查询全表扫描，也是 BUG-001 并发重名双写无唯一约束兜底的根因佐证
