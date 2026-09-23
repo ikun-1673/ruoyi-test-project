@@ -1,0 +1,564 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1790147330862,242,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-1,text,true,,596,245,1,1,http://localhost:8080/login,242,0,25
+1790147331143,16,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-1,text,true,,1248,359,1,1,http://localhost:8080/getInfo,16,0,0
+1790147331160,211,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-1,text,true,,596,245,2,2,http://localhost:8080/login,211,0,0
+1790147331372,12,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-1,text,true,,1248,359,2,2,http://localhost:8080/getInfo,12,0,0
+1790147331343,226,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-2,text,true,,596,245,2,2,http://localhost:8080/login,226,0,1
+1790147331570,16,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-2,text,true,,1248,359,2,2,http://localhost:8080/getInfo,16,0,0
+1790147331385,242,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-1,text,true,,596,245,2,2,http://localhost:8080/login,242,0,0
+1790147331628,31,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-1,text,true,,1248,359,2,2,http://localhost:8080/getInfo,31,0,0
+1790147331587,237,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-2,text,true,,596,245,2,2,http://localhost:8080/login,237,0,0
+1790147331824,13,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-2,text,true,,1248,359,2,2,http://localhost:8080/getInfo,13,0,0
+1790147331662,233,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-1,text,true,,596,245,2,2,http://localhost:8080/login,233,0,0
+1790147331895,12,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-1,text,true,,1248,359,2,2,http://localhost:8080/getInfo,12,0,0
+1790147331838,229,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-2,text,true,,596,245,3,3,http://localhost:8080/login,229,0,0
+1790147332068,10,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-2,text,true,,1248,359,3,3,http://localhost:8080/getInfo,10,0,0
+1790147331908,245,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-1,text,true,,596,245,3,3,http://localhost:8080/login,244,0,0
+1790147332153,15,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-1,text,true,,1248,359,3,3,http://localhost:8080/getInfo,15,0,0
+1790147331942,227,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-3,text,true,,596,245,3,3,http://localhost:8080/login,227,0,0
+1790147332170,10,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-3,text,true,,1248,359,3,3,http://localhost:8080/getInfo,10,0,0
+1790147332079,241,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-2,text,true,,596,245,3,3,http://localhost:8080/login,241,0,0
+1790147332321,13,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-2,text,true,,1248,359,3,3,http://localhost:8080/getInfo,13,0,0
+1790147332181,224,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-3,text,true,,596,245,3,3,http://localhost:8080/login,224,0,0
+1790147332169,239,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-1,text,true,,596,245,3,3,http://localhost:8080/login,239,0,0
+1790147332406,13,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-3,text,true,,1248,359,3,3,http://localhost:8080/getInfo,13,0,0
+1790147332409,10,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-1,text,true,,1248,359,3,3,http://localhost:8080/getInfo,10,0,0
+1790147332335,242,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-2,text,true,,596,245,4,4,http://localhost:8080/login,242,0,0
+1790147332578,10,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-2,text,true,,1248,359,4,4,http://localhost:8080/getInfo,10,0,0
+1790147332419,239,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-3,text,true,,596,245,4,4,http://localhost:8080/login,238,0,0
+1790147332419,243,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-1,text,true,,596,245,4,4,http://localhost:8080/login,243,0,0
+1790147332658,12,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-3,text,true,,1248,359,4,4,http://localhost:8080/getInfo,12,0,0
+1790147332663,11,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-1,text,true,,1248,359,4,4,http://localhost:8080/getInfo,11,0,0
+1790147332540,234,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-4,text,true,,596,245,4,4,http://localhost:8080/login,234,0,1
+1790147332774,11,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-4,text,true,,1248,359,4,4,http://localhost:8080/getInfo,11,0,0
+1790147332589,238,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-2,text,true,,596,245,4,4,http://localhost:8080/login,238,0,0
+1790147332827,12,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-2,text,true,,1248,359,4,4,http://localhost:8080/getInfo,12,0,0
+1790147332670,234,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-3,text,true,,596,245,4,4,http://localhost:8080/login,234,0,0
+1790147332675,231,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-1,text,true,,596,245,4,4,http://localhost:8080/login,231,0,0
+1790147332905,10,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-3,text,true,,1248,359,4,4,http://localhost:8080/getInfo,10,0,0
+1790147332907,8,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-1,text,true,,1248,359,4,4,http://localhost:8080/getInfo,8,0,0
+1790147332786,219,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-4,text,true,,596,245,4,4,http://localhost:8080/login,219,0,0
+1790147333006,10,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-4,text,true,,1248,359,4,4,http://localhost:8080/getInfo,10,0,0
+1790147332840,221,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-2,text,true,,596,245,4,4,http://localhost:8080/login,221,0,0
+1790147333061,12,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-2,text,true,,1248,359,4,4,http://localhost:8080/getInfo,12,0,0
+1790147332916,233,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-1,text,true,,596,245,5,5,http://localhost:8080/login,233,0,0
+1790147332916,241,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-3,text,true,,596,245,5,5,http://localhost:8080/login,241,0,0
+1790147333150,10,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-1,text,true,,1248,359,5,5,http://localhost:8080/getInfo,10,0,0
+1790147333158,10,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-3,text,true,,1248,359,5,5,http://localhost:8080/getInfo,10,0,0
+1790147333017,241,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-4,text,true,,596,245,5,5,http://localhost:8080/login,240,0,0
+1790147333258,11,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-4,text,true,,1248,359,5,5,http://localhost:8080/getInfo,11,0,0
+1790147333074,234,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-2,text,true,,596,245,5,5,http://localhost:8080/login,234,0,0
+1790147333309,11,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-2,text,true,,1248,359,5,5,http://localhost:8080/getInfo,11,0,0
+1790147333140,232,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-5,text,true,,596,245,5,5,http://localhost:8080/login,231,0,1
+1790147333372,12,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-5,text,true,,1248,359,5,5,http://localhost:8080/getInfo,12,0,0
+1790147333161,225,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-1,text,true,,596,245,5,5,http://localhost:8080/login,225,0,0
+1790147333169,218,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-3,text,true,,596,245,5,5,http://localhost:8080/login,218,0,0
+1790147333387,10,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-3,text,true,,1248,359,5,5,http://localhost:8080/getInfo,10,0,0
+1790147333387,11,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-1,text,true,,1248,359,5,5,http://localhost:8080/getInfo,11,0,0
+1790147333270,241,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-4,text,true,,596,245,5,5,http://localhost:8080/login,241,0,0
+1790147333512,10,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-4,text,true,,1248,359,5,5,http://localhost:8080/getInfo,10,0,0
+1790147333320,228,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-2,text,true,,596,245,5,5,http://localhost:8080/login,228,0,0
+1790147333548,11,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-2,text,true,,1248,359,5,5,http://localhost:8080/getInfo,11,0,0
+1790147333386,232,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-5,text,true,,596,245,5,5,http://localhost:8080/login,232,0,0
+1790147333399,228,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-1,text,true,,596,245,5,5,http://localhost:8080/login,228,0,0
+1790147333619,10,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-5,text,true,,1248,359,5,5,http://localhost:8080/getInfo,10,0,0
+1790147333628,9,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-1,text,true,,1248,359,5,5,http://localhost:8080/getInfo,9,0,0
+1790147333398,245,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-3,text,true,,596,245,5,5,http://localhost:8080/login,245,0,0
+1790147333643,10,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-3,text,true,,1248,359,5,5,http://localhost:8080/getInfo,10,0,0
+1790147333523,231,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-4,text,true,,596,245,5,5,http://localhost:8080/login,231,0,0
+1790147333755,9,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-4,text,true,,1248,359,5,5,http://localhost:8080/getInfo,9,0,0
+1790147333559,240,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-2,text,true,,596,245,5,5,http://localhost:8080/login,240,0,0
+1790147333800,9,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-2,text,true,,1248,359,5,5,http://localhost:8080/getInfo,9,0,0
+1790147333630,224,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-5,text,true,,596,245,5,5,http://localhost:8080/login,224,0,0
+1790147333855,9,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-5,text,true,,1248,359,5,5,http://localhost:8080/getInfo,9,0,0
+1790147333638,232,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-1,text,true,,596,245,5,5,http://localhost:8080/login,232,0,0
+1790147333871,10,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-1,text,true,,1248,359,5,5,http://localhost:8080/getInfo,10,0,0
+1790147333653,228,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-3,text,true,,596,245,5,5,http://localhost:8080/login,228,0,0
+1790147333881,11,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-3,text,true,,1248,359,5,5,http://localhost:8080/getInfo,10,0,0
+1790147333764,226,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-4,text,true,,596,245,5,5,http://localhost:8080/login,226,0,0
+1790147333991,8,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-4,text,true,,1248,359,5,5,http://localhost:8080/getInfo,8,0,0
+1790147333810,227,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-2,text,true,,596,245,5,5,http://localhost:8080/login,227,0,0
+1790147334037,10,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-2,text,true,,1248,359,5,5,http://localhost:8080/getInfo,10,0,0
+1790147333866,232,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-5,text,true,,596,245,5,5,http://localhost:8080/login,232,0,0
+1790147334098,10,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-5,text,true,,1248,359,5,5,http://localhost:8080/getInfo,10,0,0
+1790147333881,232,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-1,text,true,,596,245,5,5,http://localhost:8080/login,232,0,0
+1790147334114,10,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-1,text,true,,1248,359,5,5,http://localhost:8080/getInfo,10,0,0
+1790147333892,232,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-3,text,true,,596,245,5,5,http://localhost:8080/login,232,0,0
+1790147334125,8,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-3,text,true,,1248,359,5,5,http://localhost:8080/getInfo,8,0,0
+1790147334000,237,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-4,text,true,,596,245,5,5,http://localhost:8080/login,236,0,0
+1790147334237,10,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-4,text,true,,1248,359,5,5,http://localhost:8080/getInfo,9,0,0
+1790147334048,230,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-2,text,true,,596,245,5,5,http://localhost:8080/login,230,0,0
+1790147334279,9,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-2,text,true,,1248,359,5,5,http://localhost:8080/getInfo,9,0,0
+1790147334109,237,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-5,text,true,,596,245,5,5,http://localhost:8080/login,237,0,0
+1790147334347,10,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-5,text,true,,1248,359,5,5,http://localhost:8080/getInfo,10,0,0
+1790147334125,245,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-1,text,true,,596,245,5,5,http://localhost:8080/login,245,0,0
+1790147334134,237,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-3,text,true,,596,245,5,5,http://localhost:8080/login,237,0,0
+1790147334372,8,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-3,text,true,,1248,359,5,5,http://localhost:8080/getInfo,8,0,0
+1790147334370,10,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-1,text,true,,1248,359,5,5,http://localhost:8080/getInfo,10,0,0
+1790147334247,244,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-4,text,true,,596,245,5,5,http://localhost:8080/login,244,0,0
+1790147334491,9,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-4,text,true,,1248,359,5,5,http://localhost:8080/getInfo,9,0,0
+1790147334289,237,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-2,text,true,,596,245,5,5,http://localhost:8080/login,237,0,0
+1790147334526,8,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-2,text,true,,1248,359,5,5,http://localhost:8080/getInfo,8,0,0
+1790147334358,242,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-5,text,true,,596,245,5,5,http://localhost:8080/login,242,0,0
+1790147334600,8,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-5,text,true,,1248,359,5,5,http://localhost:8080/getInfo,8,0,0
+1790147334381,242,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-1,text,true,,596,245,5,5,http://localhost:8080/login,242,0,0
+1790147334381,245,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-3,text,true,,596,245,5,5,http://localhost:8080/login,245,0,0
+1790147334623,8,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-1,text,true,,1248,359,5,5,http://localhost:8080/getInfo,8,0,0
+1790147334627,7,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-3,text,true,,1248,359,5,5,http://localhost:8080/getInfo,7,0,0
+1790147334500,234,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-4,text,true,,596,245,5,5,http://localhost:8080/login,234,0,0
+1790147334734,9,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-4,text,true,,1248,359,5,5,http://localhost:8080/getInfo,9,0,0
+1790147334535,227,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-2,text,true,,596,245,5,5,http://localhost:8080/login,227,0,0
+1790147334763,9,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-2,text,true,,1248,359,5,5,http://localhost:8080/getInfo,9,0,0
+1790147334609,233,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-5,text,true,,596,245,5,5,http://localhost:8080/login,233,0,0
+1790147334842,9,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-5,text,true,,1248,359,5,5,http://localhost:8080/getInfo,8,0,0
+1790147334632,225,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-1,text,true,,596,245,5,5,http://localhost:8080/login,225,0,0
+1790147334635,227,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-3,text,true,,596,245,5,5,http://localhost:8080/login,227,0,0
+1790147334858,11,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-1,text,true,,1248,359,5,5,http://localhost:8080/getInfo,11,0,0
+1790147334864,10,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-3,text,true,,1248,359,5,5,http://localhost:8080/getInfo,10,0,0
+1790147334744,229,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-4,text,true,,596,245,5,5,http://localhost:8080/login,229,0,0
+1790147334973,9,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-4,text,true,,1248,359,5,5,http://localhost:8080/getInfo,9,0,0
+1790147334772,229,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-2,text,true,,596,245,5,5,http://localhost:8080/login,229,0,0
+1790147335002,8,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-2,text,true,,1248,359,5,5,http://localhost:8080/getInfo,8,0,0
+1790147334851,238,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-5,text,true,,596,245,5,5,http://localhost:8080/login,238,0,0
+1790147335090,8,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-5,text,true,,1248,359,5,5,http://localhost:8080/getInfo,8,0,0
+1790147334869,238,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-1,text,true,,596,245,5,5,http://localhost:8080/login,238,0,0
+1790147335108,8,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-1,text,true,,1248,359,5,5,http://localhost:8080/getInfo,8,0,0
+1790147334875,260,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-3,text,true,,596,245,5,5,http://localhost:8080/login,260,0,0
+1790147335136,9,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-3,text,true,,1248,359,5,5,http://localhost:8080/getInfo,9,0,0
+1790147334983,239,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-4,text,true,,596,245,5,5,http://localhost:8080/login,239,0,0
+1790147335223,8,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-4,text,true,,1248,359,5,5,http://localhost:8080/getInfo,8,0,0
+1790147335011,234,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-2,text,true,,596,245,5,5,http://localhost:8080/login,234,0,0
+1790147335246,9,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-2,text,true,,1248,359,5,5,http://localhost:8080/getInfo,9,0,0
+1790147335099,237,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-5,text,true,,596,245,5,5,http://localhost:8080/login,237,0,0
+1790147335337,8,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-5,text,true,,1248,359,5,5,http://localhost:8080/getInfo,8,0,0
+1790147335116,237,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-1,text,true,,596,245,5,5,http://localhost:8080/login,237,0,0
+1790147335354,7,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-1,text,true,,1248,359,5,5,http://localhost:8080/getInfo,7,0,0
+1790147335146,237,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-3,text,true,,596,245,5,5,http://localhost:8080/login,237,0,0
+1790147335384,7,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-3,text,true,,1248,359,5,5,http://localhost:8080/getInfo,7,0,0
+1790147335232,231,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-4,text,true,,596,245,5,5,http://localhost:8080/login,231,0,0
+1790147335464,9,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-4,text,true,,1248,359,5,5,http://localhost:8080/getInfo,9,0,0
+1790147335256,245,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-2,text,true,,596,245,5,5,http://localhost:8080/login,245,0,0
+1790147335502,8,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-2,text,true,,1248,359,5,5,http://localhost:8080/getInfo,8,0,0
+1790147335346,226,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-5,text,true,,596,245,5,5,http://localhost:8080/login,226,0,0
+1790147335573,7,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-5,text,true,,1248,359,5,5,http://localhost:8080/getInfo,7,0,0
+1790147335362,242,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-1,text,true,,596,245,5,5,http://localhost:8080/login,242,0,0
+1790147335605,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-1,text,true,,1248,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147335392,219,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-3,text,true,,596,245,5,5,http://localhost:8080/login,219,0,0
+1790147335612,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-3,text,true,,1248,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147335474,234,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-4,text,true,,596,245,5,5,http://localhost:8080/login,234,0,0
+1790147335709,7,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-4,text,true,,1248,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147335510,219,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-2,text,true,,596,245,5,5,http://localhost:8080/login,219,0,0
+1790147335730,9,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-2,text,true,,1248,359,5,5,http://localhost:8080/getInfo,9,0,0
+1790147335582,226,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-5,text,true,,596,245,5,5,http://localhost:8080/login,226,0,0
+1790147335809,7,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-5,text,true,,1248,359,5,5,http://localhost:8080/getInfo,7,0,0
+1790147335612,229,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-1,text,true,,596,245,5,5,http://localhost:8080/login,229,0,0
+1790147335619,226,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-3,text,true,,596,245,5,5,http://localhost:8080/login,226,0,0
+1790147335842,8,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-1,text,true,,1248,359,5,5,http://localhost:8080/getInfo,8,0,0
+1790147335845,8,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-3,text,true,,1248,359,5,5,http://localhost:8080/getInfo,8,0,0
+1790147335716,233,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-4,text,true,,596,245,5,5,http://localhost:8080/login,233,0,0
+1790147335950,7,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-4,text,true,,1248,359,5,5,http://localhost:8080/getInfo,7,0,0
+1790147335740,237,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-2,text,true,,596,245,5,5,http://localhost:8080/login,237,0,0
+1790147335978,7,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-2,text,true,,1248,359,5,5,http://localhost:8080/getInfo,7,0,0
+1790147335817,228,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-5,text,true,,596,245,5,5,http://localhost:8080/login,228,0,0
+1790147336046,7,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-5,text,true,,1248,359,5,5,http://localhost:8080/getInfo,7,0,0
+1790147335850,229,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-1,text,true,,596,245,5,5,http://localhost:8080/login,229,0,0
+1790147336080,7,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-1,text,true,,1248,359,5,5,http://localhost:8080/getInfo,7,0,0
+1790147335853,241,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-3,text,true,,596,245,5,5,http://localhost:8080/login,241,0,0
+1790147336094,7,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-3,text,true,,1248,359,5,5,http://localhost:8080/getInfo,7,0,0
+1790147335957,229,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-4,text,true,,596,245,5,5,http://localhost:8080/login,229,0,0
+1790147336186,7,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-4,text,true,,1248,359,5,5,http://localhost:8080/getInfo,7,0,0
+1790147335986,226,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-2,text,true,,596,245,5,5,http://localhost:8080/login,226,0,0
+1790147336213,7,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-2,text,true,,1248,359,5,5,http://localhost:8080/getInfo,7,0,0
+1790147336055,225,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-5,text,true,,596,245,5,5,http://localhost:8080/login,225,0,0
+1790147336281,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-5,text,true,,1248,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147336087,229,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-1,text,true,,596,245,5,5,http://localhost:8080/login,229,0,0
+1790147336317,8,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-1,text,true,,1248,359,5,5,http://localhost:8080/getInfo,8,0,0
+1790147336101,239,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-3,text,true,,596,245,5,5,http://localhost:8080/login,238,0,0
+1790147336340,10,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-3,text,true,,1248,359,5,5,http://localhost:8080/getInfo,10,0,0
+1790147336194,239,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-4,text,true,,596,245,5,5,http://localhost:8080/login,239,0,0
+1790147336434,7,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-4,text,true,,1248,359,5,5,http://localhost:8080/getInfo,7,0,0
+1790147336220,233,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-2,text,true,,596,245,5,5,http://localhost:8080/login,233,0,0
+1790147336454,8,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-2,text,true,,1248,359,5,5,http://localhost:8080/getInfo,8,0,0
+1790147336289,224,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-5,text,true,,596,245,5,5,http://localhost:8080/login,224,0,0
+1790147336514,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-5,text,true,,1248,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147336325,234,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-1,text,true,,596,245,5,5,http://localhost:8080/login,234,0,0
+1790147336559,5,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-1,text,true,,1248,359,5,5,http://localhost:8080/getInfo,5,0,0
+1790147336351,235,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-3,text,true,,596,245,5,5,http://localhost:8080/login,235,0,0
+1790147336587,7,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-3,text,true,,1248,359,5,5,http://localhost:8080/getInfo,7,0,0
+1790147336442,233,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-4,text,true,,596,245,5,5,http://localhost:8080/login,233,0,0
+1790147336676,7,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-4,text,true,,1248,359,5,5,http://localhost:8080/getInfo,7,0,0
+1790147336463,240,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-2,text,true,,596,245,5,5,http://localhost:8080/login,240,0,0
+1790147336704,7,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-2,text,true,,1248,359,5,5,http://localhost:8080/getInfo,7,0,0
+1790147336521,232,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-5,text,true,,596,245,5,5,http://localhost:8080/login,232,0,0
+1790147336754,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-5,text,true,,1248,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147336565,236,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-1,text,true,,596,245,5,5,http://localhost:8080/login,236,0,0
+1790147336802,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-1,text,true,,1248,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147336594,227,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-3,text,true,,596,245,5,5,http://localhost:8080/login,227,0,0
+1790147336821,7,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-3,text,true,,1248,359,5,5,http://localhost:8080/getInfo,7,0,0
+1790147336683,247,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-4,text,true,,596,245,5,5,http://localhost:8080/login,247,0,0
+1790147336931,7,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-4,text,true,,1248,359,5,5,http://localhost:8080/getInfo,7,0,0
+1790147336711,232,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-2,text,true,,596,245,5,5,http://localhost:8080/login,232,0,0
+1790147336944,8,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-2,text,true,,1248,359,5,5,http://localhost:8080/getInfo,8,0,0
+1790147336761,232,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-5,text,true,,596,245,5,5,http://localhost:8080/login,232,0,0
+1790147336994,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-5,text,true,,1248,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147336808,240,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-1,text,true,,596,245,5,5,http://localhost:8080/login,240,0,0
+1790147337048,10,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-1,text,true,,1248,359,5,5,http://localhost:8080/getInfo,10,0,0
+1790147336829,233,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-3,text,true,,596,245,5,5,http://localhost:8080/login,233,0,0
+1790147337062,7,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-3,text,true,,1248,359,5,5,http://localhost:8080/getInfo,7,0,0
+1790147336952,225,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-2,text,true,,596,245,5,5,http://localhost:8080/login,225,0,0
+1790147336938,240,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-4,text,true,,596,245,5,5,http://localhost:8080/login,240,0,0
+1790147337179,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-4,text,true,,1248,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147337178,7,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-2,text,true,,1248,359,5,5,http://localhost:8080/getInfo,7,0,0
+1790147337001,236,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-5,text,true,,596,245,5,5,http://localhost:8080/login,236,0,0
+1790147337237,9,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-5,text,true,,1248,359,5,5,http://localhost:8080/getInfo,9,0,0
+1790147337058,241,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-1,text,true,,596,245,5,5,http://localhost:8080/login,241,0,0
+1790147337069,230,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-3,text,true,,596,245,5,5,http://localhost:8080/login,230,0,0
+1790147337300,7,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-1,text,true,,1248,359,5,5,http://localhost:8080/getInfo,7,0,0
+1790147337300,7,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-3,text,true,,1248,359,5,5,http://localhost:8080/getInfo,7,0,0
+1790147337185,232,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-4,text,true,,596,245,5,5,http://localhost:8080/login,232,0,0
+1790147337185,237,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-2,text,true,,596,245,5,5,http://localhost:8080/login,236,0,0
+1790147337417,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-4,text,true,,1248,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147337422,10,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-2,text,true,,1248,359,5,5,http://localhost:8080/getInfo,10,0,0
+1790147337247,248,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-5,text,true,,596,245,5,5,http://localhost:8080/login,248,0,0
+1790147337495,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-5,text,true,,1248,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147337307,228,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-1,text,true,,596,245,5,5,http://localhost:8080/login,228,0,0
+1790147337307,228,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-3,text,true,,596,245,5,5,http://localhost:8080/login,228,0,0
+1790147337535,7,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-1,text,true,,1248,359,5,5,http://localhost:8080/getInfo,7,0,0
+1790147337535,7,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-3,text,true,,1248,359,5,5,http://localhost:8080/getInfo,7,0,0
+1790147337424,230,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-4,text,true,,596,245,5,5,http://localhost:8080/login,230,0,0
+1790147337655,13,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-4,text,true,,1248,359,5,5,http://localhost:8080/getInfo,13,0,0
+1790147337433,251,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-2,text,true,,596,245,5,5,http://localhost:8080/login,251,0,0
+1790147337685,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-2,text,true,,1248,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147337502,254,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-5,text,true,,596,245,5,5,http://localhost:8080/login,254,0,0
+1790147337756,7,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-5,text,true,,1248,359,5,5,http://localhost:8080/getInfo,7,0,0
+1790147337543,240,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-3,text,true,,596,245,5,5,http://localhost:8080/login,240,0,0
+1790147337783,7,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-3,text,true,,1248,359,5,5,http://localhost:8080/getInfo,7,0,0
+1790147337543,251,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-1,text,true,,596,245,5,5,http://localhost:8080/login,251,0,0
+1790147337795,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-1,text,true,,1248,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147337668,238,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-4,text,true,,596,245,5,5,http://localhost:8080/login,238,0,0
+1790147337907,9,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-4,text,true,,1248,359,5,5,http://localhost:8080/getInfo,9,0,0
+1790147337691,241,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-2,text,true,,596,245,5,5,http://localhost:8080/login,241,0,0
+1790147337933,9,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-2,text,true,,1248,359,5,5,http://localhost:8080/getInfo,9,0,0
+1790147337764,236,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-5,text,true,,596,245,5,5,http://localhost:8080/login,236,0,0
+1790147337790,215,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-3,text,true,,596,245,5,5,http://localhost:8080/login,215,0,0
+1790147338001,11,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-5,text,true,,1248,359,5,5,http://localhost:8080/getInfo,11,0,0
+1790147338006,11,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-3,text,true,,1248,359,5,5,http://localhost:8080/getInfo,11,0,0
+1790147337801,221,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-1,text,true,,596,245,5,5,http://localhost:8080/login,221,0,0
+1790147338023,8,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-1,text,true,,1248,359,5,5,http://localhost:8080/getInfo,8,0,0
+1790147337917,231,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-4,text,true,,596,245,5,5,http://localhost:8080/login,231,0,0
+1790147338148,8,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-4,text,true,,1248,359,5,5,http://localhost:8080/getInfo,8,0,0
+1790147337942,229,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-2,text,true,,596,245,5,5,http://localhost:8080/login,229,0,0
+1790147338171,7,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-2,text,true,,1248,359,5,5,http://localhost:8080/getInfo,7,0,0
+1790147338018,239,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-3,text,true,,596,245,5,5,http://localhost:8080/login,239,0,0
+1790147338013,250,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-5,text,true,,596,245,5,5,http://localhost:8080/login,250,0,0
+1790147338258,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-3,text,true,,1248,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147338032,237,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-1,text,true,,596,245,5,5,http://localhost:8080/login,237,0,0
+1790147338270,9,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-1,text,true,,1248,359,5,5,http://localhost:8080/getInfo,9,0,0
+1790147338264,15,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-5,text,true,,1248,359,5,5,http://localhost:8080/getInfo,15,0,0
+1790147338156,247,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-4,text,true,,596,245,5,5,http://localhost:8080/login,247,0,0
+1790147338404,9,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-4,text,true,,1248,359,5,5,http://localhost:8080/getInfo,8,0,0
+1790147338179,239,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-2,text,true,,596,245,5,5,http://localhost:8080/login,239,0,0
+1790147338418,8,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-2,text,true,,1248,359,5,5,http://localhost:8080/getInfo,7,0,0
+1790147338265,237,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-3,text,true,,596,245,5,5,http://localhost:8080/login,236,0,0
+1790147338280,224,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-5,text,true,,596,245,5,5,http://localhost:8080/login,224,0,0
+1790147338503,5,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-3,text,true,,1248,359,5,5,http://localhost:8080/getInfo,5,0,0
+1790147338504,5,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-5,text,true,,1248,359,5,5,http://localhost:8080/getInfo,4,0,0
+1790147338280,234,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-1,text,true,,596,245,5,5,http://localhost:8080/login,234,0,0
+1790147338515,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-1,text,true,,1248,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147338413,230,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-4,text,true,,596,245,5,5,http://localhost:8080/login,230,0,0
+1790147338644,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-4,text,true,,1248,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147338426,237,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-2,text,true,,596,245,5,5,http://localhost:8080/login,237,0,0
+1790147338664,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-2,text,true,,1248,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147338509,233,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-5,text,true,,596,245,5,5,http://localhost:8080/login,233,0,0
+1790147338509,237,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-3,text,true,,596,245,5,5,http://localhost:8080/login,237,0,0
+1790147338742,7,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-5,text,true,,1248,359,5,5,http://localhost:8080/getInfo,7,0,0
+1790147338747,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-3,text,true,,1248,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147338522,236,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-1,text,true,,596,245,5,5,http://localhost:8080/login,236,0,0
+1790147338758,11,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-1,text,true,,1248,359,5,5,http://localhost:8080/getInfo,11,0,0
+1790147338651,234,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-4,text,true,,596,245,5,5,http://localhost:8080/login,234,0,0
+1790147338885,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-4,text,true,,1248,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147338671,226,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-2,text,true,,596,245,5,5,http://localhost:8080/login,226,0,0
+1790147338897,7,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-2,text,true,,1248,359,5,5,http://localhost:8080/getInfo,7,0,0
+1790147338750,234,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-5,text,true,,596,245,5,5,http://localhost:8080/login,234,0,0
+1790147338985,5,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-5,text,true,,1248,359,5,5,http://localhost:8080/getInfo,5,0,0
+1790147338754,241,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-3,text,true,,596,245,5,5,http://localhost:8080/login,241,0,0
+1790147338770,230,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-1,text,true,,596,245,5,5,http://localhost:8080/login,230,0,0
+1790147338996,7,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-3,text,true,,1248,359,5,5,http://localhost:8080/getInfo,7,0,0
+1790147339000,7,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-1,text,true,,1248,359,5,5,http://localhost:8080/getInfo,7,0,0
+1790147338891,241,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-4,text,true,,596,245,5,5,http://localhost:8080/login,241,0,0
+1790147339133,7,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-4,text,true,,1248,359,5,5,http://localhost:8080/getInfo,7,0,0
+1790147338905,235,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-2,text,true,,596,245,5,5,http://localhost:8080/login,235,0,0
+1790147339140,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-2,text,true,,1248,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147339004,233,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-3,text,true,,596,245,5,5,http://localhost:8080/login,233,0,0
+1790147338991,247,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-5,text,true,,596,245,5,5,http://localhost:8080/login,247,0,0
+1790147339008,233,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-1,text,true,,596,245,5,5,http://localhost:8080/login,232,0,0
+1790147339238,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-3,text,true,,1248,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147339238,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-5,text,true,,1248,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147339241,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-1,text,true,,1248,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147339140,239,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-4,text,true,,596,245,5,5,http://localhost:8080/login,238,0,0
+1790147339147,235,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-2,text,true,,596,245,5,5,http://localhost:8080/login,235,0,0
+1790147339379,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-4,text,true,,1248,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147339382,7,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-2,text,true,,1248,359,5,5,http://localhost:8080/getInfo,7,0,0
+1790147339245,231,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-3,text,true,,596,245,5,5,http://localhost:8080/login,231,0,0
+1790147339247,230,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-1,text,true,,596,245,5,5,http://localhost:8080/login,230,0,0
+1790147339477,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-3,text,true,,1248,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147339245,238,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-5,text,true,,596,245,5,5,http://localhost:8080/login,238,0,0
+1790147339477,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-1,text,true,,1248,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147339484,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-5,text,true,,1248,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147339386,226,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-4,text,true,,596,245,5,5,http://localhost:8080/login,226,0,0
+1790147339612,7,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-4,text,true,,1248,359,5,5,http://localhost:8080/getInfo,7,0,0
+1790147339389,238,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-2,text,true,,596,245,5,5,http://localhost:8080/login,238,0,0
+1790147339627,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-2,text,true,,1248,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147339484,231,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-1,text,true,,596,245,5,5,http://localhost:8080/login,231,0,0
+1790147339484,232,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-3,text,true,,596,245,5,5,http://localhost:8080/login,232,0,0
+1790147339490,231,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-5,text,true,,596,245,5,5,http://localhost:8080/login,231,0,0
+1790147339716,5,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-1,text,true,,1248,359,5,5,http://localhost:8080/getInfo,5,0,0
+1790147339716,5,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-3,text,true,,1248,359,5,5,http://localhost:8080/getInfo,5,0,0
+1790147339721,12,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-5,text,true,,1248,359,5,5,http://localhost:8080/getInfo,12,0,0
+1790147339619,260,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-4,text,true,,596,245,5,5,http://localhost:8080/login,260,0,0
+1790147339879,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-4,text,true,,1248,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147339633,253,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-2,text,true,,596,245,5,5,http://localhost:8080/login,253,0,0
+1790147339886,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-2,text,true,,1248,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147339722,237,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-1,text,true,,596,245,5,5,http://localhost:8080/login,237,0,0
+1790147339959,7,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-1,text,true,,1248,359,5,5,http://localhost:8080/getInfo,7,0,0
+1790147339722,244,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-3,text,true,,596,245,5,5,http://localhost:8080/login,244,0,0
+1790147339733,234,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-5,text,true,,596,245,5,5,http://localhost:8080/login,234,0,0
+1790147339967,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-5,text,true,,1248,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147339966,7,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-3,text,true,,1248,359,5,5,http://localhost:8080/getInfo,7,0,0
+1790147339885,225,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-4,text,true,,596,245,5,5,http://localhost:8080/login,225,0,0
+1790147340113,7,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-4,text,true,,1248,359,5,5,http://localhost:8080/getInfo,7,0,0
+1790147339892,229,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-2,text,true,,596,245,5,5,http://localhost:8080/login,229,0,0
+1790147340121,5,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-2,text,true,,1248,359,5,5,http://localhost:8080/getInfo,5,0,0
+1790147339967,228,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-1,text,true,,596,245,5,5,http://localhost:8080/login,228,0,0
+1790147340196,7,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-1,text,true,,1248,359,5,5,http://localhost:8080/getInfo,7,0,0
+1790147339973,233,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-3,text,true,,596,245,5,5,http://localhost:8080/login,233,0,0
+1790147339973,236,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-5,text,true,,596,245,5,5,http://localhost:8080/login,236,0,0
+1790147340207,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-3,text,true,,1248,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147340210,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-5,text,true,,1248,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147340120,235,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-4,text,true,,596,245,5,5,http://localhost:8080/login,234,0,0
+1790147340127,231,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-2,text,true,,596,245,5,5,http://localhost:8080/login,231,0,0
+1790147340355,7,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-4,text,true,,1248,359,5,5,http://localhost:8080/getInfo,7,0,0
+1790147340358,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-2,text,true,,1248,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147340213,223,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-3,text,true,,596,245,5,5,http://localhost:8080/login,223,0,0
+1790147340204,236,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-1,text,true,,596,245,5,5,http://localhost:8080/login,236,0,0
+1790147340437,5,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-3,text,true,,1248,359,5,5,http://localhost:8080/getInfo,5,0,0
+1790147340440,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-1,text,true,,1248,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147340217,235,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-5,text,true,,596,245,5,5,http://localhost:8080/login,235,0,0
+1790147340452,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-5,text,true,,1248,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147340365,240,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-2,text,true,,596,245,5,5,http://localhost:8080/login,240,0,0
+1790147340362,245,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-4,text,true,,596,245,5,5,http://localhost:8080/login,245,0,0
+1790147340606,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-2,text,true,,1248,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147340608,4,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-4,text,true,,1248,359,5,5,http://localhost:8080/getInfo,4,0,0
+1790147340447,224,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-1,text,true,,596,245,5,5,http://localhost:8080/login,224,0,0
+1790147340671,7,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-1,text,true,,1248,359,5,5,http://localhost:8080/getInfo,7,0,0
+1790147340443,241,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-3,text,true,,596,245,5,5,http://localhost:8080/login,241,0,0
+1790147340685,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-3,text,true,,1248,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147340458,239,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-5,text,true,,596,245,5,5,http://localhost:8080/login,239,0,0
+1790147340698,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-5,text,true,,1248,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147340613,234,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-4,text,true,,596,245,5,5,http://localhost:8080/login,233,0,0
+1790147340848,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-4,text,true,,1248,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147340612,241,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-2,text,true,,596,245,5,5,http://localhost:8080/login,241,0,0
+1790147340855,5,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-2,text,true,,1248,359,5,5,http://localhost:8080/getInfo,5,0,0
+1790147340679,234,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-1,text,true,,596,245,5,5,http://localhost:8080/login,234,0,0
+1790147340914,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-1,text,true,,1248,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147340704,232,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-5,text,true,,596,245,5,5,http://localhost:8080/login,232,0,0
+1790147340691,246,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-3,text,true,,596,245,5,5,http://localhost:8080/login,246,0,0
+1790147340938,5,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-5,text,true,,1248,359,5,5,http://localhost:8080/getInfo,5,0,0
+1790147340938,5,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-3,text,true,,1248,359,5,5,http://localhost:8080/getInfo,5,0,0
+1790147340861,231,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-2,text,true,,596,245,5,5,http://localhost:8080/login,231,0,0
+1790147340855,242,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-4,text,true,,596,245,5,5,http://localhost:8080/login,242,0,0
+1790147341092,7,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-2,text,true,,1248,359,5,5,http://localhost:8080/getInfo,7,0,0
+1790147341097,8,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-4,text,true,,1248,359,5,5,http://localhost:8080/getInfo,8,0,0
+1790147340921,247,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-1,text,true,,596,245,5,5,http://localhost:8080/login,247,0,0
+1790147341168,9,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-1,text,true,,1248,359,5,5,http://localhost:8080/getInfo,9,0,0
+1790147340944,233,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-3,text,true,,596,245,5,5,http://localhost:8080/login,233,0,0
+1790147340944,235,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-5,text,true,,596,245,5,5,http://localhost:8080/login,235,0,0
+1790147341178,7,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-3,text,true,,1248,359,5,5,http://localhost:8080/getInfo,7,0,0
+1790147341179,7,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-5,text,true,,1248,359,5,5,http://localhost:8080/getInfo,7,0,0
+1790147341100,246,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-2,text,true,,596,245,5,5,http://localhost:8080/login,246,0,0
+1790147341105,241,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-4,text,true,,596,245,5,5,http://localhost:8080/login,241,0,0
+1790147341346,7,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-2,text,true,,1248,359,5,5,http://localhost:8080/getInfo,7,0,0
+1790147341346,7,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-4,text,true,,1248,359,5,5,http://localhost:8080/getInfo,7,0,0
+1790147341187,230,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-5,text,true,,596,245,5,5,http://localhost:8080/login,230,0,0
+1790147341418,5,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-5,text,true,,1248,359,5,5,http://localhost:8080/getInfo,5,0,0
+1790147341178,245,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-1,text,true,,596,245,5,5,http://localhost:8080/login,245,0,0
+1790147341424,8,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-1,text,true,,1248,359,5,5,http://localhost:8080/getInfo,8,0,0
+1790147341185,249,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-3,text,true,,596,245,5,5,http://localhost:8080/login,249,0,0
+1790147341435,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-3,text,true,,1248,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147341353,242,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-4,text,true,,596,245,5,5,http://localhost:8080/login,242,0,0
+1790147341353,248,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-2,text,true,,596,245,5,5,http://localhost:8080/login,248,0,0
+1790147341595,7,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-4,text,true,,1248,359,5,5,http://localhost:8080/getInfo,7,0,0
+1790147341602,7,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-2,text,true,,1248,359,5,5,http://localhost:8080/getInfo,7,0,0
+1790147341425,222,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-5,text,true,,596,245,5,5,http://localhost:8080/login,222,0,0
+1790147341648,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-5,text,true,,1248,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147341441,225,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-3,text,true,,596,245,5,5,http://localhost:8080/login,225,0,0
+1790147341666,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-3,text,true,,1248,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147341433,249,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-1,text,true,,596,245,5,5,http://localhost:8080/login,249,0,0
+1790147341682,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-1,text,true,,1248,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147341602,223,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-4,text,true,,596,245,5,5,http://localhost:8080/login,223,0,0
+1790147341826,5,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-4,text,true,,1248,359,5,5,http://localhost:8080/getInfo,5,0,0
+1790147341610,248,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-2,text,true,,596,245,5,5,http://localhost:8080/login,248,0,0
+1790147341859,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-2,text,true,,1248,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147341654,236,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-5,text,true,,596,245,5,5,http://localhost:8080/login,236,0,0
+1790147341890,5,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-5,text,true,,1248,359,5,5,http://localhost:8080/getInfo,5,0,0
+1790147341672,224,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-3,text,true,,596,245,5,5,http://localhost:8080/login,224,0,0
+1790147341896,5,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-3,text,true,,1248,359,5,5,http://localhost:8080/getInfo,5,0,0
+1790147341688,240,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-1,text,true,,596,245,5,5,http://localhost:8080/login,240,0,0
+1790147341928,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-1,text,true,,1248,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147341831,238,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-4,text,true,,596,245,5,5,http://localhost:8080/login,238,0,0
+1790147342070,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-4,text,true,,1248,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147341865,225,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-2,text,true,,596,245,5,5,http://localhost:8080/login,225,0,0
+1790147342091,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-2,text,true,,1248,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147341896,240,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-5,text,true,,596,245,5,5,http://localhost:8080/login,240,0,0
+1790147341901,236,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-3,text,true,,596,245,5,5,http://localhost:8080/login,236,0,0
+1790147342136,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-5,text,true,,1248,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147342137,5,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-3,text,true,,1248,359,5,5,http://localhost:8080/getInfo,5,0,0
+1790147341934,221,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-1,text,true,,596,245,5,5,http://localhost:8080/login,221,0,0
+1790147342155,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-1,text,true,,1248,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147342077,228,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-4,text,true,,596,245,5,5,http://localhost:8080/login,228,0,0
+1790147342305,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-4,text,true,,1248,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147342097,241,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-2,text,true,,596,245,5,5,http://localhost:8080/login,241,0,0
+1790147342339,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-2,text,true,,1248,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147342143,230,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-3,text,true,,596,245,5,5,http://localhost:8080/login,230,0,0
+1790147342143,233,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-5,text,true,,596,245,5,5,http://localhost:8080/login,233,0,0
+1790147342374,5,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-3,text,true,,1248,359,5,5,http://localhost:8080/getInfo,5,0,0
+1790147342376,4,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-5,text,true,,1248,359,5,5,http://localhost:8080/getInfo,4,0,0
+1790147342162,225,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-1,text,true,,596,245,5,5,http://localhost:8080/login,225,0,0
+1790147342388,5,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-1,text,true,,1248,359,5,5,http://localhost:8080/getInfo,5,0,0
+1790147342312,234,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-4,text,true,,596,245,5,5,http://localhost:8080/login,234,0,0
+1790147342546,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-4,text,true,,1248,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147342345,235,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-2,text,true,,596,245,5,5,http://localhost:8080/login,235,0,0
+1790147342580,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-2,text,true,,1248,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147342380,248,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-3,text,true,,596,245,5,5,http://localhost:8080/login,248,0,0
+1790147342394,234,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-1,text,true,,596,245,5,5,http://localhost:8080/login,234,0,0
+1790147342381,247,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-5,text,true,,596,245,5,5,http://localhost:8080/login,247,0,0
+1790147342628,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-5,text,true,,1248,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147342628,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-3,text,true,,1248,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147342628,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-1,text,true,,1248,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147342552,234,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-4,text,true,,596,245,5,5,http://localhost:8080/login,234,0,0
+1790147342787,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-4,text,true,,1248,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147342586,237,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-2,text,true,,596,245,5,5,http://localhost:8080/login,237,0,0
+1790147342823,7,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-2,text,true,,1248,359,5,5,http://localhost:8080/getInfo,7,0,0
+1790147342635,232,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-1,text,true,,596,245,5,5,http://localhost:8080/login,232,0,0
+1790147342867,5,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-1,text,true,,1248,359,5,5,http://localhost:8080/getInfo,5,0,0
+1790147342635,241,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-3,text,true,,596,245,5,5,http://localhost:8080/login,241,0,0
+1790147342635,242,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-5,text,true,,596,245,5,5,http://localhost:8080/login,242,0,0
+1790147342876,5,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-3,text,true,,1248,359,5,5,http://localhost:8080/getInfo,5,0,0
+1790147342878,4,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-5,text,true,,1248,359,5,5,http://localhost:8080/getInfo,4,0,0
+1790147342793,241,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-4,text,true,,596,245,5,5,http://localhost:8080/login,241,0,0
+1790147343034,7,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-4,text,true,,1248,359,5,5,http://localhost:8080/getInfo,7,0,0
+1790147342830,216,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-2,text,true,,596,245,5,5,http://localhost:8080/login,216,0,0
+1790147343046,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-2,text,true,,1248,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147342873,246,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-1,text,true,,596,245,5,5,http://localhost:8080/login,246,0,0
+1790147342881,244,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-3,text,true,,596,245,5,5,http://localhost:8080/login,244,0,0
+1790147342883,243,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-5,text,true,,596,245,5,5,http://localhost:8080/login,243,0,0
+1790147343120,7,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-1,text,true,,1219,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147343127,4,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-5,text,true,,1248,359,5,5,http://localhost:8080/getInfo,4,0,0
+1790147343126,5,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-3,text,true,,1248,359,5,5,http://localhost:8080/getInfo,5,0,0
+1790147343041,228,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-4,text,true,,596,245,5,5,http://localhost:8080/login,228,0,0
+1790147343269,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-4,text,true,,1248,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147343052,233,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-2,text,true,,596,245,5,5,http://localhost:8080/login,232,0,0
+1790147343285,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-2,text,true,,1248,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147343128,224,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-1,text,true,,596,245,5,5,http://localhost:8080/login,224,0,1
+1790147343131,221,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-3,text,true,,596,245,5,5,http://localhost:8080/login,221,0,0
+1790147343352,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-3,text,true,,1248,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147343352,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-1,text,true,,1248,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147343131,229,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-5,text,true,,596,245,5,5,http://localhost:8080/login,229,0,0
+1790147343360,5,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-5,text,true,,1248,359,5,5,http://localhost:8080/getInfo,5,0,0
+1790147343275,225,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-4,text,true,,596,245,5,5,http://localhost:8080/login,225,0,0
+1790147343500,5,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-4,text,true,,1248,359,5,5,http://localhost:8080/getInfo,5,0,0
+1790147343292,242,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-2,text,true,,596,245,5,5,http://localhost:8080/login,242,0,0
+1790147343534,5,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-2,text,true,,1219,359,5,5,http://localhost:8080/getInfo,5,0,0
+1790147343359,232,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-3,text,true,,596,245,5,5,http://localhost:8080/login,232,0,0
+1790147343592,4,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-3,text,true,,1248,359,5,5,http://localhost:8080/getInfo,4,0,0
+1790147343359,240,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-1,text,true,,596,245,5,5,http://localhost:8080/login,240,0,0
+1790147343366,235,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-5,text,true,,596,245,5,5,http://localhost:8080/login,235,0,0
+1790147343599,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-1,text,true,,1248,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147343601,5,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-5,text,true,,1248,359,5,5,http://localhost:8080/getInfo,5,0,0
+1790147343505,233,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-4,text,true,,596,245,5,5,http://localhost:8080/login,233,0,0
+1790147343739,5,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-4,text,true,,1248,359,5,5,http://localhost:8080/getInfo,5,0,0
+1790147343540,240,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-2,text,true,,596,245,5,5,http://localhost:8080/login,240,0,0
+1790147343781,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-2,text,true,,1248,359,5,5,http://localhost:8080/getInfo,5,0,0
+1790147343605,230,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-1,text,true,,596,245,5,5,http://localhost:8080/login,230,0,0
+1790147343598,240,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-3,text,true,,596,245,5,5,http://localhost:8080/login,240,0,0
+1790147343836,5,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-1,text,true,,1248,359,5,5,http://localhost:8080/getInfo,5,0,0
+1790147343838,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-3,text,true,,1248,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147343606,241,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-5,text,true,,596,245,5,5,http://localhost:8080/login,241,0,0
+1790147343847,5,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-5,text,true,,1248,359,5,5,http://localhost:8080/getInfo,5,0,0
+1790147343744,229,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-4,text,true,,596,245,5,5,http://localhost:8080/login,229,0,0
+1790147343974,5,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-4,text,true,,1248,359,5,5,http://localhost:8080/getInfo,5,0,0
+1790147343787,240,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-2,text,true,,596,245,5,5,http://localhost:8080/login,240,0,0
+1790147344028,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-2,text,true,,1248,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147343844,229,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-3,text,true,,596,245,5,5,http://localhost:8080/login,229,0,0
+1790147343842,232,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-1,text,true,,596,245,5,5,http://localhost:8080/login,232,0,0
+1790147344074,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-1,text,true,,1248,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147344074,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-3,text,true,,1219,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147343852,229,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-5,text,true,,596,245,5,5,http://localhost:8080/login,229,0,0
+1790147344081,8,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-5,text,true,,1248,359,5,5,http://localhost:8080/getInfo,8,0,0
+1790147343979,225,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-4,text,true,,596,245,5,5,http://localhost:8080/login,225,0,0
+1790147344204,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-4,text,true,,1248,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147344034,229,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-2,text,true,,596,245,5,5,http://localhost:8080/login,229,0,0
+1790147344264,12,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-2,text,true,,1248,359,5,5,http://localhost:8080/getInfo,12,0,0
+1790147344081,236,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-1,text,true,,596,245,5,5,http://localhost:8080/login,236,0,0
+1790147344081,236,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-3,text,true,,596,245,5,5,http://localhost:8080/login,236,0,2
+1790147344318,7,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-1,text,true,,1248,359,5,5,http://localhost:8080/getInfo,7,0,0
+1790147344318,7,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-3,text,true,,1248,359,5,5,http://localhost:8080/getInfo,7,0,0
+1790147344089,236,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-5,text,true,,596,245,5,5,http://localhost:8080/login,236,0,0
+1790147344326,8,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-5,text,true,,1248,359,5,5,http://localhost:8080/getInfo,8,0,0
+1790147344210,221,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-4,text,true,,596,245,5,5,http://localhost:8080/login,221,0,0
+1790147344431,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-4,text,true,,1248,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147344276,231,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-2,text,true,,596,245,5,5,http://localhost:8080/login,231,0,0
+1790147344507,7,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-2,text,true,,1248,359,5,5,http://localhost:8080/getInfo,7,0,0
+1790147344326,236,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-3,text,true,,596,245,5,5,http://localhost:8080/login,236,0,0
+1790147344326,239,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-1,text,true,,596,245,5,5,http://localhost:8080/login,239,0,0
+1790147344334,234,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-5,text,true,,596,245,5,5,http://localhost:8080/login,234,0,0
+1790147344563,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-3,text,true,,1248,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147344566,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-1,text,true,,1248,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147344570,5,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-5,text,true,,1248,359,5,5,http://localhost:8080/getInfo,5,0,0
+1790147344437,222,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-4,text,true,,596,245,5,5,http://localhost:8080/login,222,0,0
+1790147344659,5,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-4,text,true,,1219,359,5,5,http://localhost:8080/getInfo,5,0,0
+1790147344514,226,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-2,text,true,,596,245,5,5,http://localhost:8080/login,226,0,0
+1790147344740,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-2,text,true,,1248,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147344571,237,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-3,text,true,,596,245,5,5,http://localhost:8080/login,237,0,0
+1790147344809,5,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-3,text,true,,1248,359,5,5,http://localhost:8080/getInfo,5,0,0
+1790147344576,240,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-5,text,true,,596,245,5,5,http://localhost:8080/login,240,0,0
+1790147344572,246,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-1,text,true,,596,245,5,5,http://localhost:8080/login,246,0,0
+1790147344816,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-5,text,true,,1248,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147344818,5,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-1,text,true,,1248,359,5,5,http://localhost:8080/getInfo,5,0,0
+1790147344665,232,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-4,text,true,,596,245,5,5,http://localhost:8080/login,232,0,1
+1790147344897,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-4,text,true,,1248,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147344746,227,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-2,text,true,,596,245,5,5,http://localhost:8080/login,227,0,0
+1790147344974,5,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-2,text,true,,1248,359,5,5,http://localhost:8080/getInfo,5,0,0
+1790147344815,225,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-3,text,true,,596,245,5,5,http://localhost:8080/login,225,0,0
+1790147345041,5,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-3,text,true,,1248,359,5,5,http://localhost:8080/getInfo,5,0,0
+1790147344822,234,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-5,text,true,,596,245,5,5,http://localhost:8080/login,234,0,0
+1790147344823,237,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-1,text,true,,596,245,5,5,http://localhost:8080/login,236,0,0
+1790147345057,5,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-5,text,true,,1248,359,5,5,http://localhost:8080/getInfo,5,0,0
+1790147345060,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-1,text,true,,1248,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147344903,248,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-4,text,true,,596,245,5,5,http://localhost:8080/login,248,0,0
+1790147345152,5,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-4,text,true,,1248,359,5,5,http://localhost:8080/getInfo,5,0,0
+1790147344979,240,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-2,text,true,,596,245,5,5,http://localhost:8080/login,240,0,0
+1790147345219,5,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-2,text,true,,1248,359,5,5,http://localhost:8080/getInfo,5,0,0
+1790147345047,217,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-3,text,true,,596,245,5,5,http://localhost:8080/login,217,0,0
+1790147345265,4,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-3,text,true,,1248,359,5,5,http://localhost:8080/getInfo,4,0,0
+1790147345066,228,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-1,text,true,,596,245,5,5,http://localhost:8080/login,227,0,0
+1790147345294,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-1,text,true,,1248,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147345063,240,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-5,text,true,,596,245,5,5,http://localhost:8080/login,240,0,0
+1790147345303,6,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-5,text,true,,1219,359,5,5,http://localhost:8080/getInfo,6,0,0
+1790147345157,247,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-4,text,true,,596,245,5,5,http://localhost:8080/login,247,0,0
+1790147345404,5,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-4,text,true,,1248,359,5,5,http://localhost:8080/getInfo,5,0,0
+1790147345224,230,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-2,text,true,,596,245,5,5,http://localhost:8080/login,230,0,0
+1790147345455,5,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-2,text,true,,1248,359,5,5,http://localhost:8080/getInfo,5,0,0
+1790147345270,238,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-3,text,true,,596,245,5,5,http://localhost:8080/login,238,0,0
+1790147345509,4,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-3,text,true,,1248,359,5,5,http://localhost:8080/getInfo,4,0,0
+1790147345300,215,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-1,text,true,,596,245,5,5,http://localhost:8080/login,215,0,0
+1790147345515,4,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-1,text,true,,1248,359,5,5,http://localhost:8080/getInfo,4,0,0
+1790147345309,246,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-5,text,true,,596,245,5,5,http://localhost:8080/login,246,0,1
+1790147345555,5,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-5,text,true,,1248,359,5,5,http://localhost:8080/getInfo,5,0,0
+1790147345410,245,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-4,text,true,,596,245,5,5,http://localhost:8080/login,245,0,0
+1790147345655,5,② 获取用户信息 GET /getInfo（带 token）,200,,线程组（接口链压测） 1-4,text,true,,1248,359,5,5,http://localhost:8080/getInfo,5,0,0
+1790147345460,248,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-2,text,true,,596,245,5,5,http://localhost:8080/login,248,0,0
+1790147345514,237,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-3,text,true,,596,245,4,4,http://localhost:8080/login,237,0,0
+1790147345519,235,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-1,text,true,,596,245,3,3,http://localhost:8080/login,235,0,0
+1790147345561,240,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-5,text,true,,596,245,2,2,http://localhost:8080/login,240,0,0
+1790147345660,212,① 登录 POST /login（取 CSV 账号）,200,,线程组（接口链压测） 1-4,text,true,,596,245,1,1,http://localhost:8080/login,212,0,0
