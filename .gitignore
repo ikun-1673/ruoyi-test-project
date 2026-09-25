@@ -7,3 +7,7 @@ reports/
 testdata/
 debug_flow.py
 .env
+
+# 个人工作笔记（不上传 GitHub）
+备忘录.md
+修改记录.md
